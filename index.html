@@ -1,34 +1,132 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="google-site-verification" content="yYEw1LYj-AUkmbKYS2z6VTUcSqfrIN3D-pqq6U1jrp0" />
-  <title>Memora App Download</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memora – Smart Reminder for ADHD & Dementia</title>
+  <meta name="description" content="Memora helps people with ADHD or early-stage dementia manage routines and reminders easily with an accessible, calming design. Download Memora now.">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(180deg, #A7E0FF 0%, #C7F2C4 100%);
+      color: #00334E;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+    }
+
+    header {
       text-align: center;
-      margin-top: 100px;
+      padding: 60px 20px 30px;
     }
-    button {
-      background-color: #4CAF50;
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+      color: #004C70;
+    }
+
+    p.subtitle {
+      font-size: 1.2rem;
+      color: #005C5C;
+      margin-top: 10px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 20px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      max-width: 800px;
+      margin: 20px;
+      padding: 40px;
+      text-align: left;
+    }
+
+    .card h2 {
+      color: #004D40;
+      border-left: 5px solid #009688;
+      padding-left: 10px;
+    }
+
+    .card ul {
+      line-height: 1.8;
+      list-style-type: "✔ ";
+      padding-left: 20px;
+    }
+
+    .download {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .download button {
+      background-color: #00796B;
       color: white;
-      padding: 15px 30px;
+      padding: 15px 40px;
       border: none;
-      border-radius: 10px;
-      cursor: pointer;
+      border-radius: 30px;
       font-size: 18px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
-    button:hover { background-color: #45a049; }
+
+    .download button:hover {
+      background-color: #009688;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: auto;
+      text-align: center;
+      padding: 30px;
+      color: #00334E;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      .card { padding: 20px; }
+      .download button { width: 80%; }
+    }
   </style>
 </head>
 <body>
-  <h1>Download the Memora App</h1>
-  <p>Click the button below to download the latest version of Memora.</p>
-  <a href="https://drive.google.com/uc?export=download&id=1nuvhEEbTsefOgsXe1yOQ0TermJ3JjpYl" download>
-    <button>Download Memora.apk</button>
-  </a>
+  <header>
+    <h1>MEMORA</h1>
+    <p class="subtitle">Smart Reminder & Task Manager for ADHD and Dementia</p>
+  </header>
+
+  <div class="card">
+    <h2>About Memora</h2>
+    <p>
+      Memora is designed to help individuals with ADHD and early-stage dementia stay independent and organized.
+      It offers clear, calm reminders for important daily tasks such as medication, meals, and appointments.
+    </p>
+
+    <h2>Key Features</h2>
+    <ul>
+      <li>Smart reminders with adaptive timing</li>
+      <li>Voice and speech-to-text support</li>
+      <li>Caregiver alerts and shared monitoring</li>
+      <li>Gentle, sensory-friendly design</li>
+      <li>AI-assisted task suggestions</li>
+    </ul>
+
+    <div class="download">
+      <a href="https://drive.google.com/uc?export=download&id=1nuvhEEbTsefOgsXe1yOQ0TermJ3JjpYl" download>
+        <button>⬇ Download Memora.apk</button>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 AcubeDTech | Designed for Cognitive Comfort</p>
+  </footer>
 </body>
 </html>
