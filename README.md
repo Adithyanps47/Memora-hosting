@@ -1,119 +1,43 @@
-Memora Hosting – APK Distribution Website
+# Memora-hosting
 
-This repository contains the static hosting files for the Memora mobile application —
-a smart reminder & task assistance app designed for ADHD and Early Dementia patients.
+[![GitHub Pages](https://img.shields.io/badge/view-live--site-blue)](https://adithyanps47.github.io/Memora-hosting/)
 
-The purpose of this hosting project is to provide a clean, simple web page where users can:
+This is the GitHub Pages hosting repository for the **Memora** app's related web project.
 
-✔ Learn about the Memora app
+## About
 
-✔ Read instructions and app details
+**Memora-hosting** serves as the public web interface for resources and static assets associated with the Memora app.  
+It is the official project site and can be accessed here:  
+🔗 [https://adithyanps47.github.io/Memora-hosting/](https://adithyanps47.github.io/Memora-hosting/)
 
-✔ Download the latest APK directly to their device
+This repository is 100% HTML and is designed for deployment via GitHub Pages.
 
-This hosting page acts as the official download and information portal for the Memora Android application.
+## Related Project
 
+- [Memora app](#)  
+  *(Replace with the Memora app's actual GitHub repo link if available)*
 
----
+## Getting Started
 
-🚀 Features of the Hosting Website
+Just visit the [live site](https://adithyanps47.github.io/Memora-hosting/) — no setup required.
 
-APK Download Button
-Users can download the Memora mobile APK directly from the website.
+If you want to clone or modify locally:
 
-App Overview Section
-Provides details about the Memora app, its purpose, features, and usage.
+```bash
+git clone https://github.com/Adithyanps47/Memora-hosting.git
+cd Memora-hosting
+# Open the index.html file or other HTML files in your browser
+```
 
-Simple, lightweight, mobile-friendly UI
-Designed to load fast and remain accessible for all users.
+## Screenshots
 
-Search Engine Indexing Ready
-The site is configured to be indexed so people searching for the Memora app can find the official download page.
+<!-- Optionally add screenshots here -->
+<!-- ![Screenshot](screenshot.png) -->
 
+## Contributing
 
+Feel free to open issues or submit pull requests for improvements!
 
----
+## License
 
-🛠 Tech Stack
-
-This hosting website is built using:
-
-HTML
-
-CSS
-
-JavaScript
-
-Optional redirect / download logic
-
-Hosted on GitHub Pages (or your hosting platform)
-
-
-
----
-
-🔗 Live Hosting Link
-
-(Add when ready)
-Example:
-
-https://adithyanps47.github.io/Memora-hosting/
-
-
----
-
-📥 Download the App
-
-A direct APK download button is available on the site.
-
-Download → links to Firebase Storage / GitHub Releases / direct file path
-
-(Update the README later once your final hosting link is stable)
-
-
----
-
-📂 Project Structure
-
-Memora-hosting/
-│
-├── index.html        # Main landing page
-├── styles.css        # Website styling
-├── script.js         # JS for UI / redirects (optional)
-├── assets/           # Icons, images, screenshots
-└── apk/              # APK file or link (optional)
-
-
----
-
-🤝 Connection to Main Project (Memora Mobile App)
-
-This hosting website is part of the broader Memora system, which includes:
-
-Memora Android Application (Main project)
-Repo link: https://github.com/Adithyanps47/Memora-mobile-app
-
-Memora Hosting Website (APK distribution + app info)
-This repo.
-
-
-Together, these two repositories showcase:
-
-✔ End-to-end product creation
-
-✔ App development + deployment
-
-✔ Firebase and mobile workflows
-
-✔ Website hosting and distribution
-
-✔ Real-world project execution
-
-
----
-
-👨‍💻 Developer
-
-Adithyan P S
-Integrated MCA Student, Amrita Vishwa Vidyapeetham
-LinkedIn: https://www.linkedin.com/in/adithyan-p-s-mobile
+This project is under the [MIT License](LICENSE).
